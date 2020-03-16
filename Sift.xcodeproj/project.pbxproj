@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34439DDD241FF36600FD7F05 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34439DDC241FF36600FD7F05 /* NetworkExtension.framework */; };
+		34439DDE241FF43900FD7F05 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34439DDC241FF36600FD7F05 /* NetworkExtension.framework */; };
 		FA0A6B2B20C4A41A00222EF2 /* StaticRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA3CA1FFEE8B90077C681 /* StaticRules.swift */; };
 		FA0A6B2D20C4A41C00222EF2 /* StaticRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDA3CA1FFEE8B90077C681 /* StaticRules.swift */; };
 		FA68F2661FF84C520042840D /* Mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68F2651FF84C520042840D /* Mutex.swift */; };
@@ -24,16 +26,12 @@
 		FAA2F54A1FEEF25B00FA15C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5481FEEF25B00FA15C4 /* Main.storyboard */; };
 		FAA2F54F1FEEF25B00FA15C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F54E1FEEF25B00FA15C4 /* Assets.xcassets */; };
 		FAA2F5521FEEF25B00FA15C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5501FEEF25B00FA15C4 /* LaunchScreen.storyboard */; };
-		FAA2F55F1FEEF36E00FA15C4 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2F55E1FEEF36E00FA15C4 /* NetworkExtension.framework */; };
 		FAA2F5671FEEF51200FA15C4 /* FilterDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F5661FEEF51200FA15C4 /* FilterDataProvider.swift */; };
 		FAA2F56C1FEEF51200FA15C4 /* SiftData.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAA2F5641FEEF51100FA15C4 /* SiftData.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FAA2F5711FEEF51D00FA15C4 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2F55E1FEEF36E00FA15C4 /* NetworkExtension.framework */; };
 		FAA2F5791FEEF53000FA15C4 /* FilterControlProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F5781FEEF53000FA15C4 /* FilterControlProvider.swift */; };
 		FAA2F57E1FEEF53000FA15C4 /* SiftControl.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FAA2F5761FEEF53000FA15C4 /* SiftControl.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FAA2F5821FEEF53C00FA15C4 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2F55E1FEEF36E00FA15C4 /* NetworkExtension.framework */; };
 		FAA2F59D1FEEF7F700FA15C4 /* FiraMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5851FEEF7F700FA15C4 /* FiraMono-Medium.ttf */; };
 		FAA2F59E1FEEF7F700FA15C4 /* FiraMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5861FEEF7F700FA15C4 /* FiraMono-Regular.ttf */; };
-		FAA2F59F1FEEF7F700FA15C4 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5871FEEF7F700FA15C4 /* OFL.txt */; };
 		FAA2F5A01FEEF7F700FA15C4 /* FiraMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F5881FEEF7F700FA15C4 /* FiraMono-Bold.ttf */; };
 		FAA2F5A41FEEF7F700FA15C4 /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F58D1FEEF7F700FA15C4 /* FiraSans-Medium.ttf */; };
 		FAA2F5A61FEEF7F700FA15C4 /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAA2F58F1FEEF7F700FA15C4 /* FiraSans-Bold.ttf */; };
@@ -60,7 +58,6 @@
 		FAA2F5D41FEF71B000FA15C4 /* UniqueID.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F5D11FEF71B000FA15C4 /* UniqueID.swift */; };
 		FAA2F5D61FEF738C00FA15C4 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F5D51FEF738C00FA15C4 /* Notification.swift */; };
 		FAA2F5FC1FF569DB00FA15C4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F5FB1FF569DB00FA15C4 /* Resources.swift */; };
-		FAA2F6431FF57DCA00FA15C4 /* AwesomeCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2F63C1FF57DA700FA15C4 /* AwesomeCache.framework */; };
 		FAA2F6441FF57DD500FA15C4 /* AwesomeCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA2F63C1FF57DA700FA15C4 /* AwesomeCache.framework */; };
 		FAA2F6471FF57F9600FA15C4 /* NetCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F6461FF57F9600FA15C4 /* NetCache.swift */; };
 		FAA2F6481FF57F9600FA15C4 /* NetCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA2F6461FF57F9600FA15C4 /* NetCache.swift */; };
@@ -156,6 +153,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34439DDC241FF36600FD7F05 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		FA68F2651FF84C520042840D /* Mutex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mutex.swift; sourceTree = "<group>"; };
 		FA68F26E1FF85A510042840D /* Flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow.swift; sourceTree = "<group>"; };
 		FA68F2731FF85E190042840D /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 		FAA2F5511FEEF25B00FA15C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA2F5531FEEF25B00FA15C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAA2F55C1FEEF34C00FA15C4 /* Sift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sift.entitlements; sourceTree = "<group>"; };
-		FAA2F55E1FEEF36E00FA15C4 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		FAA2F5641FEEF51100FA15C4 /* SiftData.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiftData.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA2F5661FEEF51200FA15C4 /* FilterDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterDataProvider.swift; sourceTree = "<group>"; };
 		FAA2F5681FEEF51200FA15C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -229,8 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA2F64E1FF594B200FA15C4 /* AwesomeCache.framework in Frameworks */,
-				FAA2F6431FF57DCA00FA15C4 /* AwesomeCache.framework in Frameworks */,
-				FAA2F55F1FEEF36E00FA15C4 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2F5711FEEF51D00FA15C4 /* NetworkExtension.framework in Frameworks */,
+				34439DDD241FF36600FD7F05 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA2F6441FF57DD500FA15C4 /* AwesomeCache.framework in Frameworks */,
-				FAA2F5821FEEF53C00FA15C4 /* NetworkExtension.framework in Frameworks */,
+				34439DDE241FF43900FD7F05 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,8 +315,8 @@
 		FAA2F55D1FEEF36E00FA15C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34439DDC241FF36600FD7F05 /* NetworkExtension.framework */,
 				FAA2F6161FF57DA700FA15C4 /* AwesomeCache */,
-				FAA2F55E1FEEF36E00FA15C4 /* NetworkExtension.framework */,
 				FAA2F5DE1FF48E9500FA15C4 /* UserNotifications.framework */,
 				FAA2F5E01FF48E9500FA15C4 /* UserNotificationsUI.framework */,
 			);
@@ -526,7 +521,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Alex Grinman";
 				TargetAttributes = {
 					FAA2F5401FEEF25B00FA15C4 = {
@@ -645,7 +640,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA2F59F1FEEF7F700FA15C4 /* OFL.txt in Resources */,
 				FAA2F5A01FEEF7F700FA15C4 /* FiraMono-Bold.ttf in Resources */,
 				FAA2F59D1FEEF7F700FA15C4 /* FiraMono-Medium.ttf in Resources */,
 				FA68F2741FF85E190042840D /* Onboarding.storyboard in Resources */,
@@ -705,11 +699,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "modulesDirectory=$DERIVED_FILES_DIR/modules\nmodulesMap=$modulesDirectory/module.modulemap\nmodulesMapTemp=$modulesDirectory/module.modulemap.tmp\n\nmkdir -p \"$modulesDirectory\"\n\ncat > \"$modulesMapTemp\" << MAP\nmodule CommonCrypto [system] {\n    header \"$SDKROOT/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nMAP\n\ndiff \"$modulesMapTemp\" \"$modulesMap\" >/dev/null 2>/dev/null\nif [[ $? != 0 ]] ; then\nmv \"$modulesMapTemp\" \"$modulesMap\"\nelse\nrm \"$modulesMapTemp\"\nfi";
+			shellScript = "modulesDirectory=$DERIVED_FILES_DIR/modules\nmodulesMap=$modulesDirectory/module.modulemap\nmodulesMapTemp=$modulesDirectory/module.modulemap.tmp\n\nmkdir -p \"$modulesDirectory\"\n\ncat > \"$modulesMapTemp\" << MAP\nmodule CommonCrypto [system] {\n    header \"$SDKROOT/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nMAP\n\ndiff \"$modulesMapTemp\" \"$modulesMap\" >/dev/null 2>/dev/null\nif [[ $? != 0 ]] ; then\nmv \"$modulesMapTemp\" \"$modulesMap\"\nelse\nrm \"$modulesMapTemp\"\nfi\n";
 		};
 		FAA2F5CE1FEF712800FA15C4 /* Common Crypto */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -719,7 +713,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "modulesDirectory=$DERIVED_FILES_DIR/modules\nmodulesMap=$modulesDirectory/module.modulemap\nmodulesMapTemp=$modulesDirectory/module.modulemap.tmp\n\nmkdir -p \"$modulesDirectory\"\n\ncat > \"$modulesMapTemp\" << MAP\nmodule CommonCrypto [system] {\n    header \"$SDKROOT/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nMAP\n\ndiff \"$modulesMapTemp\" \"$modulesMap\" >/dev/null 2>/dev/null\nif [[ $? != 0 ]] ; then\nmv \"$modulesMapTemp\" \"$modulesMap\"\nelse\nrm \"$modulesMapTemp\"\nfi";
+			shellScript = "modulesDirectory=$DERIVED_FILES_DIR/modules\nmodulesMap=$modulesDirectory/module.modulemap\nmodulesMapTemp=$modulesDirectory/module.modulemap.tmp\n\nmkdir -p \"$modulesDirectory\"\n\ncat > \"$modulesMapTemp\" << MAP\nmodule SSCommonCrypto [system] {\n    header \"$SDKROOT/usr/include/CommonCrypto/CommonCrypto.h\"\n    export *\n}\nMAP\n\ndiff \"$modulesMapTemp\" \"$modulesMap\" >/dev/null 2>/dev/null\nif [[ $? != 0 ]] ; then\nmv \"$modulesMapTemp\" \"$modulesMap\"\nelse\nrm \"$modulesMapTemp\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -853,6 +847,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -860,6 +855,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -910,6 +906,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -917,6 +914,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -953,13 +951,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sift/Sift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = Sift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -971,13 +969,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sift/Sift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = Sift/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -987,11 +985,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiftData/SiftData.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = SiftData/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift.SiftData;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift.SiftData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1004,11 +1002,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiftData/SiftData.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = SiftData/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift.SiftData;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift.SiftData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1021,11 +1019,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiftControl/SiftControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = SiftControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift.SiftControl;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift.SiftControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -1038,11 +1036,11 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SiftControl/SiftControl.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C246BC89CJ;
+				DEVELOPMENT_TEAM = XM49R49WX2;
 				INFOPLIST_FILE = SiftControl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.alexgr.Sift.SiftControl;
+				PRODUCT_BUNDLE_IDENTIFIER = in.hatio.Sift.SiftControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
